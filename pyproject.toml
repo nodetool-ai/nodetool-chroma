@@ -1,0 +1,19 @@
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "nodetool-chroma"
+version = "0.1.0"
+description = "Nodetool Chroma nodes"
+readme = "README.md"
+authors = ["Matthias Georgi <matti.georgi@gmail.com>"]
+packages = [{ include = "nodetool", from = "src" }]
+package-mode = true
+
+[tool.poetry.dependencies]
+python = "^3.10"
+nodetool-core = { git = "https://github.com/nodetool-ai/nodetool-core.git", rev = "main" }
+
+chromadb = "*"
+ollama = "*"
