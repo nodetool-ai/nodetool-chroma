@@ -5,6 +5,7 @@
   "authors": [
     "Matthias Georgi <matti.georgi@gmail.com>"
   ],
+  "repo_id": "nodetool-ai/nodetool-chroma",
   "nodes": [
     {
       "title": "Chroma",
@@ -464,7 +465,7 @@
               "min",
               "sum"
             ],
-            "type_name": "chroma.index.EmbeddingAggregation"
+            "type_name": "nodetool.nodes.chroma.index.EmbeddingAggregation"
           },
           "default": "mean",
           "title": "Aggregation",

@@ -11,7 +11,7 @@ authors = ["Matthias Georgi <matti.georgi@gmail.com>"]
 packages = [{ include = "nodetool", from = "src" }]
 package-mode = true
 include = ["src/nodetool/package-metadata/nodetool-chroma.json"]
-
+repository = "https://github.com/nodetool-ai/nodetool-chroma"
 [tool.poetry.dependencies]
 python = "^3.10"
 nodetool-core = { git = "https://github.com/nodetool-ai/nodetool-core.git", rev = "main" }
