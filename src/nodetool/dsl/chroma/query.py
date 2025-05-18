@@ -7,8 +7,7 @@ from nodetool.dsl.graph import GraphNode
 
 class HybridSearch(GraphNode):
     """
-    Hybrid search combining semantic and keyword-based search for better retrieval.
-    Uses reciprocal rank fusion to combine results from both methods.
+    Hybrid search combining semantic and keyword-based search for better retrieval. Uses reciprocal rank fusion to combine results from both methods.
     """
 
     collection: types.Collection | GraphNode | tuple[GraphNode, str] = Field(default=types.Collection(type='collection', name=''), description='The collection to query')

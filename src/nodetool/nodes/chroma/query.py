@@ -184,8 +184,7 @@ class RemoveOverlap(ChromaNode):
 
 class HybridSearch(ChromaNode):
     """
-    Hybrid search combining semantic and keyword-based search for better retrieval.
-    Uses reciprocal rank fusion to combine results from both methods.
+    Hybrid search combining semantic and keyword-based search for better retrieval. Uses reciprocal rank fusion to combine results from both methods.
     """
 
     collection: Collection = Field(
